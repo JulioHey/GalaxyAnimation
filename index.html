@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Doom Fire Effect</title>
+
+    <style>
+      #galaxyCanvas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100%;
+        width: 100%;
+      }
+
+      td {
+        width: 32px;
+        height: 32px;
+        color: #000;
+        border: 1px solid #000;
+        text-align: center;
+        vertical-align: center;
+        font-family: arial;
+        font-size: 10px;
+        position: relative;
+        font-weight: bold;
+      }
+
+      .pixel-index {
+        display: inline-block;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+      }
+
+      .light-level {
+        font-size: 12px;
+      }
+
+      td.pixel {
+        width: 12px;
+        height: 12px;
+        border: 0;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div
+        id="galaxyCanvas"
+    >
+
+    </div>
+
+    <script src="galaxy.js"></script>
+
+  </body>
+</html
